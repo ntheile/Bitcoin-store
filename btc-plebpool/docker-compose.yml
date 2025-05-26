@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: $APP_PLEBPOOL_IP
+      APP_PORT: $APP_PLEBPOOL_PORT
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: ntheile/pleb-pool-ui:latest@sha256:617a21b49d0816ce8a33aed65a68a5977845f7ad92622a7695e028143d643b7c
+    user: "1000:1000"
+    init: true
+    restart: on-failure
+    stop_grace_period: 1m
+    # command: "./wait-for mariadb:3306 --timeout=720 -- nginx -g 'daemon off;'"
+    environment:
+      FRONTEND_HTTP_PORT: $APP_PLEBPOOL_PORT
+      #BACKEND_MAINNET_HTTP_HOST: $APP_PLEBPOOL_API_IP
+      NGINX_PORT: $APP_PLEBPOOL_PORT
+      NGINX_HOSTNAME: $APP_MEMPOOL_API_IP
+    networks:
+      default:
+        ipv4_address: $APP_PLEBPOOL_IP
