@@ -23,9 +23,9 @@ repo: https://github.com/ntheile/pleb-pool-ui
 support: https://github.com/ntheile/pleb-pool-ui
 port: 3699
 gallery:
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/1-plebpool.jpg
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/2-plebpool.jpg
-  - https://raw.githubusercontent.com/Retropex/Bitcoin-store/refs/heads/master/icon/3-plebpool.jpg
+  - https://raw.githubusercontent.com/ntheile/Bitcoin-store/refs/heads/master/icon/1-plebpool.jpg
+  - https://raw.githubusercontent.com/ntheile/Bitcoin-store/refs/heads/master/icon/2-plebpool.jpg
+  - https://raw.githubusercontent.com/ntheile/Bitcoin-store/refs/heads/master/icon/3-plebpool.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
