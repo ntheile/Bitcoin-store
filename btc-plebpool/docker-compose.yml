@@ -9,7 +9,7 @@ services:
     networks:
       - default
   web:
-    image: ntheile/pleb-pool-ui:latest@sha256:897f10e132e1b4bb296c803ae0b3846badf2b3e4ecbdfab146928a1a13a9a0ff
+    image: ntheile/pleb-pool-ui:latest@sha256:latest
     user: "0:0"
     init: true
     restart: on-failure
