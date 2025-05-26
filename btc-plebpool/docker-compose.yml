@@ -9,7 +9,7 @@ services:
     networks:
       - default
   web:
-    image: ntheile/pleb-pool-ui:latest@sha256:617a21b49d0816ce8a33aed65a68a5977845f7ad92622a7695e028143d643b7c
+    image: ntheile/pleb-pool-ui:latest@sha256:0375eac83207a09f651432cfd1f4fb3fbb43cdd68dfd493693da41272c9106c3
     user: "0:0"
     init: true
     restart: on-failure
@@ -23,3 +23,4 @@ networks:
   default:
     name: umbrel_main_network
     external: true
+    
