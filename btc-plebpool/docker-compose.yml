@@ -9,7 +9,7 @@ services:
     networks:
       - default
   web:
-    image: ntheile/pleb-pool-ui:latest@:latest
+    image: ntheile/pleb-pool-ui:latest
     user: "0:0"
     init: true
     restart: on-failure
