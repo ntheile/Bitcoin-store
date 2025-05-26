@@ -8,12 +8,8 @@ icon: https://raw.githubusercontent.com/ntheile/Bitcoin-store/refs/heads/master/
 description: >-
   Run your plebpool.
 
-
   features:
-
-
   - no shitcoins.
-
   - mine like a boss.
 releaseNotes: >-
 developer: Public Pool
@@ -29,27 +25,5 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-# widgets:
-#   - id: "stats"
-#     type: "four-stats"
-#     refresh: "5s"
-#     endpoint: "widget-server:3000/widgets/fees"
-#     link: ""
-#     example:
-#       type: "four-stats"
-#       link: ""
-#       items:
-#         - title: "No priority"
-#           text: "2"
-#           subtext: "sat/vB"
-#         - title: "Low priority"
-#           text: "6"
-#           subtext: "sat/vB"
-#         - title: "Medium priority"
-#           text: "18"
-#           subtext: "sat/vB"
-#         - title: "High priority"
-#           text: "27"
-#           subtext: "sat/vB"
 submitter: nicktee
 submission: https://github.com/ntheile/Bitcoin-store/pull/1
