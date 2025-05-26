@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-plebpool
 category: Bitcoin
 name: plebpool
-version: "0.0.1"
+version: "0.0.2"
 tagline: plebpool
 icon: https://raw.githubusercontent.com/ntheile/Bitcoin-store/refs/heads/master/icon/plebpool.png
 description: >-
