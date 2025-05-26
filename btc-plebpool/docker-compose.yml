@@ -11,6 +11,3 @@ services:
     init: true
     volumes:
       - ./config:/etc/caddy:rw
-    networks:
-        default:
-          ipv4_address: $APP_PLEBPOOL_IP

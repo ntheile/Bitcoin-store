@@ -1,4 +1,2 @@
 export APP_PLEBPOOL_PORT="3699"
-export APP_PLEBPOOL_IP="10.21.21.50"
-
-export APP_HOST="$APP_PLEBPOOL_IP"
+export APP_HOST="btc-plebpool_web_1"
